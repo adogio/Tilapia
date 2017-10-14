@@ -1,0 +1,24 @@
+{
+  "name": "tilapia",
+  "version": "0.0.0",
+  "description": ":tropical_fish: Use data structure in JavaScript",
+  "main": "dist/tilapia.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adogio/Tilapia.git"
+  },
+  "keywords": [
+    "data-structure",
+    "js",
+    "tiliapia"
+  ],
+  "author": "WMXPY",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/adogio/Tilapia/issues"
+  },
+  "homepage": "https://github.com/adogio/Tilapia#readme"
+}
