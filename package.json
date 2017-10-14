@@ -1,7 +1,7 @@
 {
   "name": "tilapia",
   "version": "0.0.0",
-  "description": ":tropical_fish: A hackable modulized data structure lib for JavaScript",
+  "description": ":tropical_fish: A hackable modularized data-structure and algorithm lib for JavaScript",
   "main": "dist/tilapia.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +12,8 @@
   },
   "keywords": [
     "data-structure",
-    "js",
-    "tiliapia"
+    "util",
+    "tilapia"
   ],
   "author": "WMXPY",
   "license": "SEE LICENSE IN LICENSE",
