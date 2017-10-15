@@ -1,7 +1,4 @@
-interface tilapia {
-    target: string,
-    func: Function
-}
+import tilapia from '../interface';
 
 class hashMap<T> {
 

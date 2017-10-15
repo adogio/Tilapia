@@ -1,9 +1,5 @@
 import vector from './vector';
-
-interface tilapia {
-    target: string,
-    func: Function
-}
+import tilapia from '../interface';
 
 class graph<T> {
 
@@ -42,3 +38,5 @@ class graph<T> {
         this.vectors.push(node);
     }
 }
+
+export default graph;
