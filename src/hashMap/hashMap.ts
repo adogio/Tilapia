@@ -1,4 +1,10 @@
+interface tilapia {
+    target: string,
+    func: Function
+}
+
 class hashMap<T> {
+
     private size: number;
     private obj: object;
 
@@ -7,8 +13,15 @@ class hashMap<T> {
         this.obj = new Object();
     }
 
-    public use(target: string, func: Function): hashMap<T> {
-        this[target] = func;
+    public tilapia(uses: Array<tilapia>): hashMap<t> {
+        for (let i = 0; i < uses.length; i++) {
+            this.use(uses[i]);
+        }
+        return this;
+    }
+
+    public use(use: tilapia): hashMap<T> {
+        this[use.target] = use.func;
         return this;
     }
 
