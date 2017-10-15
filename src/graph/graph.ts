@@ -34,9 +34,11 @@ class graph<T> {
     }
 
     public addVector(value: T) {
-        let node = new vector<T>();
+        let node = new vector<T>(value);
         this.vectors.push(node);
     }
+
+    public addEdge()
 }
 
 export default graph;
