@@ -11,7 +11,7 @@ class graph<T> {
                 this.addVector(list[i]);
             }
             if (vectors) {
-                throw new Error("The graph have to contructed like (Array<T>) or (T,T,T,T...)")
+                throw new Error("The graph have to construct like (Array<T>) or (T,T,T,T...)")
             }
         } else {
             this.addVector(list);
@@ -19,6 +19,14 @@ class graph<T> {
                 this.addVector(vectors[i]);
             }
         }
+    }
+
+    public BFS(target: T): Array<T> {
+        throw new Error("Tilapia need a bfs module to do this, try npm install tilapia-graph-bfs");
+    }
+
+    public DFS(target: T): Array<T> {
+        throw new Error("Tilapia need a dfs module to do this, try npm install tilapia-graph-dfs");
     }
 
     public tilapia(uses: Array<tilapia>): graph<T> {
