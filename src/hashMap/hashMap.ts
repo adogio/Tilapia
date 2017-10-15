@@ -13,7 +13,7 @@ class hashMap<T> {
         this.obj = new Object();
     }
 
-    public tilapia(uses: Array<tilapia>): hashMap<t> {
+    public tilapia(uses: Array<tilapia>): hashMap<T> {
         for (let i = 0; i < uses.length; i++) {
             this.use(uses[i]);
         }
@@ -21,7 +21,7 @@ class hashMap<T> {
     }
 
     public use(use: tilapia): hashMap<T> {
-        this[use.target] = use.func;
+        this[use.target] = use.func.bind(this);
         return this;
     }
 
