@@ -24,7 +24,6 @@ class sort implements inf {
         }
 
         function insert(element: any): void {
-            console.log(element, response)
             if (element <= response[0]) {
                 response.unshift(element);
                 return;
