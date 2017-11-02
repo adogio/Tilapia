@@ -1,5 +1,12 @@
-export function hello() {
-    return 'Hello World!';
-}
+import inf from '../interface';
 
-export default hello;
+class sort implements inf {
+    target = "Array";
+    install(varName?: string) {
+        Array.prototype[varName || "centerSort"] = this.func;
+    }
+
+    func() {
+
+    }
+}

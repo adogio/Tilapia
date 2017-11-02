@@ -1,5 +1,6 @@
 interface tilapia {
     target: string,
+    install: Function,
     func: Function
 }
 
