@@ -1,12 +1,20 @@
 import inf from '../interface';
 
 class sort implements inf {
-    target = "Array";
-    install(varName?: string) {
-        Array.prototype[varName || "centerSort"] = this.func;
+    public target = "Array";
+
+    public constructor() {
+
     }
 
-    func() {
+    public install(varName?: string): string {
+        Array.prototype[varName || "centerSort"] = this.func;
+        return varName;
+    }
 
+    public func() {
+        console.log("t");
     }
 }
+
+export default sort;
